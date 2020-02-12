@@ -15797,4 +15797,14 @@ hr {
   height: 45vh;
 }
 
+.borderthis {
+  border-radius: 50%;
+}
+
+.colorbtn {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
