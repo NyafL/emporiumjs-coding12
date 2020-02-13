@@ -17,7 +17,7 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav ">
-                <li class="nav-item active ">
+                <li class="nav-item  ">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -156,7 +156,7 @@
               <img src="./public/img/products_mini/product-gloves.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                   <div class="row">
-                <div class="borderthis bg-danger text-white text-center"> SALE!</div>
+                <div class="borderthis  btn"> SALE!</div>
                 <p class=" col-6 card-text"> <span>Leather Gloves</span><br> <span>$34.00</span><span>$27.00</span></p>
                   </div>
               </div>
@@ -176,8 +176,10 @@
             <div class="card border-0 m-2">
               <img src="./public/img/products_mini/product-bag.jpg"  class="card-img-top" alt="...">
               <div class="card-body">
-               
-                <p class="card-text"><span>Womens Bag</span><br><span>$420.00</span><span>$350.00</span></p>
+                <div class="row">
+                <div class="borderthis  btn"> SALE!</div>
+                <p class="card-text col-6"><span>Womens Bag</span><br><span>$420.00</span><span>$350.00</span></p>
+                </div>
               </div>
             </div>
             <div class="card border-0 m-2">
@@ -234,7 +236,27 @@
 
 <!-- hot fashion products -->
 
-<section class="container">
+<section class="slideshow-container">
+  <h3 class="text-center pt-5">Hot fashion products</h3>
+  <img  class="mySlides fade" src="./public/img/products/product-tshitr-white-700x500.jpg" alt="">
+  <img  class="mySlides fade" src="./public/img/products/product-tshitr-700x500.jpg" alt="">
+  <img  class="mySlides fade" src="./public/img/products/product-shoes-700x500.jpg" alt="">
+  <img class="mySlides fade"  src="./public/img/products/product-jacket-700x500.jpg" alt="">
+  <img  class="mySlides fade" src="./public/img/products/product-bag-700x500.jpg" alt="">
+  <img  class="mySlides fade" src="./public/img/products/product-bag-2-700x500.jpg" alt="">
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
 
 </section>
 
@@ -284,7 +306,12 @@
         </div>
         <div class="col-4">
             <h5>RECENTS PRODUCTS</h5>
-
+          <ul class="ulhere">
+            <li class="lihere">Hello World</li>
+            <li class="lihere"> Wonderful serenity has taken</li>
+            <li class="lihere">In my soul and absorb it's power</li>
+            <li class="lihere">I hear the buzz of the little</li>
+          </ul>
         </div>
 
         <div class="col-4">
