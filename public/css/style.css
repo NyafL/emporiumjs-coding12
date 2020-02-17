@@ -15799,6 +15799,7 @@ hr {
 
 .colorbtn {
   width: 35px;
+  margin: 5px;
   height: 35px;
   border-radius: 5px;
 }
@@ -15991,6 +15992,19 @@ hr {
   left: -1em;
   top: 0.9em;
   position: relative;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.connection {
+  width: 110px;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
